@@ -1,0 +1,15 @@
+{
+  "name": "us-visa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "start": "cypress run --browser chrome"
+  },
+  "author": "Daniele Moreira",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.3.0"
+  }
+}
