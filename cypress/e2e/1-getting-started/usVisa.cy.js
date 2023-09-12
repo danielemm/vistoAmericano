@@ -14,20 +14,6 @@ describe("us visa appointment", () => {
   });
 
   it("reschedulle", () => {
-    // cy.contains('a', 'Continue').click()
-    // cy.get('#user_email').type('danielemm@gmail.com')
-    // cy.get('#user_password').type('@usavisa123')
-    // cy.get('.icheckbox').click()
-    // cy.contains('input', 'Sign In').click()
-
-    // cy.intercept(
-    //   'POST',
-    //   'https://ais.usvisa-info.com/en-ca/niv/users/sign_in'
-    // ).as('signInRequest')
-
-    // cy.wait('@signInRequest')
-
-    // cy.contains('Current Status')
     cy.get(".ui-dialog-buttonset > .ui-button").click();
     cy.get("#user_email").type(""); //inserir email
     cy.get("#user_password").type(""); //inserir senha
